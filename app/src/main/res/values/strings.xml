@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">wifiqui</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">WiFiQui</string>
+    <string name="nav_header_subtitle">Química</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Menu Principal</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="menu_antecedentes">Antecedentes</string>
+    <string name="menu_apuntes">Apuntes</string>
+    <string name="menu_articulos">Artículos</string>
+    <string name="menu_presentaciones">Presentaciones</string>
+    <string name="menu_series">Series</string>
+    <string name="menu_videos">Videos</string>
+</resources>

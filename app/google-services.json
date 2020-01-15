@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "12248289834",
+    "firebase_url": "https://wifiquiapp.firebaseio.com",
+    "project_id": "wifiquiapp",
+    "storage_bucket": "wifiquiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12248289834:android:ba05872e6156820d10a953",
+        "android_client_info": {
+          "package_name": "com.example.wifiqui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12248289834-le5umnbuijhvso1gl5dmqefh3694ifan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wifiqui",
+            "certificate_hash": "ba4d1d3aa11ad19698de26ab50d582787523aa2d"
+          }
+        },
+        {
+          "client_id": "12248289834-vfkdci0b22vapl3fa34eq56sprmvrd9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBza-DEDoqQlTAtG8sLvsc7l-uLyLnLYk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12248289834-vfkdci0b22vapl3fa34eq56sprmvrd9d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "12248289834-3r8tmiui56vopb4phmqhmhc3nr7qrv32.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wifiqui.WifiquiApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

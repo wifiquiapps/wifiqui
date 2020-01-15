@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.wifiqui.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_apuntes"
+        android:name="com.example.wifiqui.ui.gallery.GalleryFragment"
+        android:label="@string/menu_apuntes"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_articulos"
+        android:name="com.example.wifiqui.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_articulos"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_antecedentes"
+        android:name="com.example.wifiqui.ui.tools.ToolsFragment"
+        android:label="@string/menu_antecedentes"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_presentaciones"
+        android:name="com.example.wifiqui.ui.share.ShareFragment"
+        android:label="@string/menu_presentaciones"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_series"
+        android:name="com.example.wifiqui.ui.send.SendFragment"
+        android:label="@string/menu_series"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.example.wifiqui.ui.Videos.VideosFragment"
+        android:label="@string/menu_videos"
+        tools:layout="@layout/fragment_videos" />
+</navigation>
