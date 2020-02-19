@@ -13,31 +13,31 @@
 
     <fragment
         android:id="@+id/nav_apuntes"
-        android:name="com.example.wifiqui.ui.gallery.GalleryFragment"
+        android:name="com.example.wifiqui.ui.Apuntes.GalleryFragment"
         android:label="@string/menu_apuntes"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_articulos"
-        android:name="com.example.wifiqui.ui.slideshow.SlideshowFragment"
+        android:name="com.example.wifiqui.ui.Examenes.SlideshowFragment"
         android:label="@string/menu_articulos"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_antecedentes"
-        android:name="com.example.wifiqui.ui.tools.ToolsFragment"
+        android:name="com.example.wifiqui.ui.Antecedentes.AntecedentesFragment"
         android:label="@string/menu_antecedentes"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_presentaciones"
-        android:name="com.example.wifiqui.ui.share.ShareFragment"
+        android:name="com.example.wifiqui.ui.Presentaciones.ShareFragment"
         android:label="@string/menu_presentaciones"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_series"
-        android:name="com.example.wifiqui.ui.send.SendFragment"
+        android:name="com.example.wifiqui.ui.Series.SendFragment"
         android:label="@string/menu_series"
         tools:layout="@layout/fragment_send" />
     <fragment

@@ -1,4 +1,4 @@
-package com.example.wifiqui.ui.gallery
+package com.example.wifiqui.ui.Apuntes
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

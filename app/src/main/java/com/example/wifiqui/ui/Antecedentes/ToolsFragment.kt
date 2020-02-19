@@ -1,4 +1,4 @@
-package com.example.wifiqui.ui.share
+package com.example.wifiqui.ui.Antecedentes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,22 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.wifiqui.R
 
-class ShareFragment : Fragment() {
+class AntecedentesFragment : Fragment() {
 
-    private lateinit var shareViewModel: ShareViewModel
+    private lateinit var toolsViewModel: ToolsViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        shareViewModel =
-            ViewModelProviders.of(this).get(ShareViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_share, container, false)
-        val textView: TextView = root.findViewById(R.id.text_share)
-        shareViewModel.text.observe(this, Observer {
-            textView.text = it
-        })
+        toolsViewModel =
+            ViewModelProviders.of(this).get(ToolsViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_tools, container, false)
+        val textView: TextView = root.findViewById(R.id.text_tools)
+        textView.text = "Antecedentes"
         return root
     }
 }

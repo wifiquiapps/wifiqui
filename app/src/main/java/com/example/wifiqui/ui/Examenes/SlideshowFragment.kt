@@ -1,4 +1,4 @@
-package com.example.wifiqui.ui.slideshow
+package com.example.wifiqui.ui.Examenes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,9 +23,7 @@ class SlideshowFragment : Fragment() {
             ViewModelProviders.of(this).get(SlideshowViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
         val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(this, Observer {
-            textView.text = it
-        })
+        textView.text = "Examenes"
         return root
     }
 }

@@ -1,4 +1,4 @@
-package com.example.wifiqui.ui.slideshow
+package com.example.wifiqui.ui.Examenes
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

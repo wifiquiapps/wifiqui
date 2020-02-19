@@ -18,12 +18,13 @@
         android:background="#FF637D"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/imageButton7"
         app:layout_constraintDimensionRatio="1:1.1"
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bloc" />
+        app:srcCompat="@drawable/apuntes_articulos" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -36,12 +37,13 @@
         android:background="#F4F1BB"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/imageButton9"
         app:layout_constraintDimensionRatio="1:1.1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/powerpoint" />
+        app:srcCompat="@drawable/presentaciones" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -54,12 +56,13 @@
         android:background="#66D7D1"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/imageButton10"
         app:layout_constraintDimensionRatio="1:1.1"
         app:layout_constraintEnd_toStartOf="@+id/imageButton9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@drawable/problema" />
+        app:srcCompat="@drawable/series" />
 
     <ImageButton
         android:id="@+id/imageButton9"
@@ -72,12 +75,13 @@
         android:background="#EAF2E3"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/imageButton11"
         app:layout_constraintDimensionRatio="1:1.1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@drawable/camara" />
+        app:srcCompat="@drawable/videos" />
 
     <ImageButton
         android:id="@+id/imageButton10"
@@ -90,12 +94,13 @@
         android:background="#FFF87F"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1.1"
         app:layout_constraintEnd_toStartOf="@+id/imageButton11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@drawable/prueba" />
+        app:srcCompat="@drawable/examenes_resueltos" />
 
     <ImageButton
         android:id="@+id/imageButton11"
@@ -108,12 +113,14 @@
         android:background="#976DD0"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1.1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:srcCompat="@drawable/libros" />
+        app:srcCompat="@drawable/antecedentes"
+        />
 
     <TextView
         android:id="@+id/textView2"

@@ -1,4 +1,4 @@
-package com.example.wifiqui.ui.share
+package com.example.wifiqui.ui.Presentaciones
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

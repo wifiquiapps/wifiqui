@@ -1,20 +1,18 @@
 package com.example.wifiqui.ui.home
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.wifiqui.R
+import com.example.wifiqui.ui.Antecedentes.AntecedentesFragment
 import com.example.wifiqui.ui.Videos.VideosFragment
-import com.example.wifiqui.ui.gallery.GalleryFragment
-import com.example.wifiqui.ui.send.SendFragment
-import com.example.wifiqui.ui.share.ShareFragment
-import com.example.wifiqui.ui.slideshow.SlideshowFragment
-import com.example.wifiqui.ui.tools.ToolsFragment
+import com.example.wifiqui.ui.Apuntes.GalleryFragment
+import com.example.wifiqui.ui.Series.SendFragment
+import com.example.wifiqui.ui.Presentaciones.ShareFragment
+import com.example.wifiqui.ui.Examenes.SlideshowFragment
 import kotlinx.android.synthetic.main.fragment_home.*
 
 
@@ -70,7 +68,7 @@ class HomeFragment : Fragment() {
         }
         imageButton11.setOnClickListener {
             var fr = getFragmentManager()?.beginTransaction()
-            fr?.replace(R.id.nav_host_fragment, ToolsFragment())
+            fr?.replace(R.id.nav_host_fragment, AntecedentesFragment())
             fr?.commit()
         }
     }
