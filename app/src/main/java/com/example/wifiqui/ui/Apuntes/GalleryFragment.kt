@@ -20,7 +20,7 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
+        val root = inflater.inflate(R.layout.fragment_apuntes, container, false)
 
 
         database = FirebaseDatabase.getInstance().reference

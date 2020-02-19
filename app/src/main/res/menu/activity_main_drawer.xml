@@ -13,9 +13,9 @@
             android:icon="@drawable/writing"
             android:title="@string/menu_apuntes" />
         <item
-            android:id="@+id/nav_articulos"
+            android:id="@+id/nav_examenes"
             android:icon="@drawable/article"
-            android:title="@string/menu_articulos" />
+            android:title="@string/menu_examenes" />
         <item
             android:id="@+id/nav_antecedentes"
             android:icon="@drawable/history"

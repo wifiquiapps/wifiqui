@@ -15,31 +15,31 @@
         android:id="@+id/nav_apuntes"
         android:name="com.example.wifiqui.ui.Apuntes.GalleryFragment"
         android:label="@string/menu_apuntes"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_apuntes" />
 
     <fragment
-        android:id="@+id/nav_articulos"
+        android:id="@+id/nav_examenes"
         android:name="com.example.wifiqui.ui.Examenes.SlideshowFragment"
-        android:label="@string/menu_articulos"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/menu_examenes"
+        tools:layout="@layout/fragment_examenes" />
 
     <fragment
         android:id="@+id/nav_antecedentes"
         android:name="com.example.wifiqui.ui.Antecedentes.AntecedentesFragment"
         android:label="@string/menu_antecedentes"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_antecedentes" />
 
     <fragment
         android:id="@+id/nav_presentaciones"
         android:name="com.example.wifiqui.ui.Presentaciones.ShareFragment"
         android:label="@string/menu_presentaciones"
-        tools:layout="@layout/fragment_share" />
+        tools:layout="@layout/fragment_presentaciones" />
 
     <fragment
         android:id="@+id/nav_series"
         android:name="com.example.wifiqui.ui.Series.SendFragment"
         android:label="@string/menu_series"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_series" />
     <fragment
         android:id="@+id/nav_videos"
         android:name="com.example.wifiqui.ui.Videos.VideosFragment"

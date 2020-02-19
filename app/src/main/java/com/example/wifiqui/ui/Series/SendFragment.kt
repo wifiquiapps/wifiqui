@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.wifiqui.R
 
@@ -21,7 +20,7 @@ class SendFragment : Fragment() {
     ): View? {
         sendViewModel =
             ViewModelProviders.of(this).get(SendViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_send, container, false)
+        val root = inflater.inflate(R.layout.fragment_series, container, false)
         val textView: TextView = root.findViewById(R.id.text_send)
         textView.text = "Series"
         return root
